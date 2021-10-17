@@ -1,0 +1,43 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .sidebar{
+        display: none;
+    }
+.content{
+    width: 100%!important;
+}
+.left-image{
+    display: none;
+    
+}
+.right-image{
+    display: none;
+}
+.bodyframe{
+    display: none;
+}
+}
+
+@media only screen and (max-width: 1326px) {
+    .content{
+        width: 50% !important;
+    }
+.center-nav ul li div input {
+    padding-right: 10vw !important;
+}
+.right-nav{
+    width: 60% !important;
+}
+
+}
+
+
+@media only screen and (max-width: 1080px) {
+    
+.center-nav ul li div input {
+    padding-right: 5vw !important;
+}
+.right-nav{
+    width: 70%;
+}
+}
